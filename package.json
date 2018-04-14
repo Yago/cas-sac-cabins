@@ -1,0 +1,24 @@
+{
+  "name": "cas-map",
+  "version": "1.0.0",
+  "author": {
+    "name" : "Yann Gouffon",
+    "email" : "hello@yago.io",
+    "url" : "https://github.com/Yago"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "twig": "^1.11.0"
+  }
+}
